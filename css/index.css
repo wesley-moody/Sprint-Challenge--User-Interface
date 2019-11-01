@@ -29,11 +29,33 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    background-color: pink;
+    line-height: 1;
+
 }
 ol, ul {
 	list-style: none;
 }
+
+.topnav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    color: black
+}
+
+header .jumbo{
+    display: flex;
+    align-items: space-around;
+
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -48,6 +70,7 @@ table {
 }
 
 * {
+    outline: 1px solid red;
     box-sizing: border-box;
 }
 
